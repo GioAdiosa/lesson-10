@@ -1,0 +1,164 @@
+.colour {
+    background-color: #0A22F4;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.registration-text-map {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.contact {
+    font-size: 32px;
+}
+
+.text-map {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text {
+    max-width: 463px;
+    height: 99px;
+    font-size: 16px;
+}
+
+.map {
+    margin-top: 20px;
+}
+.contact-logo {
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+}
+.contact-span, .contact-span-gmail {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.call-img,
+.gmail-img {
+    width: 26px;
+    height: 26px;
+}
+
+.contact-gmail {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.logo-2 {
+    margin-left: 70px;
+}
+
+.okay {
+    margin-top: 350px;
+    font-size: 16px;
+}
+
+/* second part */
+
+
+.footer-finish {
+    color: #FFFFFF;
+}
+
+.registration {
+font-size: 16px;
+margin-top: 80px;
+    
+}
+
+.write {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: wrap;
+    height: 19px;
+    margin-top: 20px;
+}
+
+#name,
+#mail,
+#phone {
+    width: 100%;
+    height: 60px;
+    background-color: #0A22F4;
+
+}
+
+#message {
+    height: 140px;
+    background-color: #0A22F4;
+}
+#name,
+#mail,
+#phone, #message {
+    max-width: 463px;
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+
+.send {
+    color: #171717;
+    background-color: #FFFFFF;
+    max-width: 151px;
+    height: 55px;
+    border-radius: 28px;
+    font-size: 16px;
+    margin-top: 180px;
+    margin-left: 330px;
+    text-align: center;
+    line-height: 50px;
+}
+.footer-div {
+font-size: 13px;
+margin-top: 50px;
+margin-left: 200px;
+}
+.love {
+    margin-left: 10px;
+    width: 26px;
+    height: 26px;
+}
+.image-smart {
+ margin-left:  20px;
+ margin-top: 50px;
+ width: 121px;
+ height: 35px;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: roman;
+    src: url(fonts/HelveticaNeueLTStd-Lt.ttf) format("truetype");
+}
+@font-face {
+    font-family: roblox;
+    src: url(fonts/HelveticaNeueLTGEO-55Roman.ttf) format("truetype");
+}
+.foooont {
+    font-family:"roman";
+}
+.text {
+    font-family: "roblox";
+}
